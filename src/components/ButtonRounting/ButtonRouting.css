@@ -20,6 +20,7 @@
   background: #C39775;
   cursor: pointer;
   transition: 0.5s;
+  color: #000;
 }
 
 .container-btn button:hover {
