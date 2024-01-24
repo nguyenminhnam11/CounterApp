@@ -1,0 +1,83 @@
+.wrapper-aciton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+}
+
+.wrapper-aciton p {
+  color: #91ddea;
+  text-shadow: 0 0 10px #a4dee9;
+  font-size: 70px;
+  font-weight: 700;
+  position: relative;
+  top: -60px;
+}
+
+#incre {
+  position: relative;
+  right: -37px;
+  top: -32px;
+  padding: 25px;
+  background: #0c4266;
+  border: none;
+  opacity: 0.7;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#decre {
+  position: relative;
+  left: -38px;
+  top: -33px;
+  padding: 25px;
+  background: #0c4266;
+  border: none;
+  opacity: 0.7;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#reset {
+  position: relative;
+  left: 2px;
+  bottom: -156px;
+  padding: 25px;
+  background: #95684b;
+  border: none;
+  opacity: 0.7;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#incre,
+#decre,
+#reset i {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#incre:hover,
+#decre:hover {
+  background: #91ddea;
+  color: #000;
+  opacity: 0.9;
+  box-shadow: 0 0 10px #91ddea;
+}
+
+#reset:hover {
+  background: #aa8254;
+  color: #000;
+  opacity: 0.9;
+  box-shadow: 0 0 20px #aa8254;
+}
+
+#reset:active {
+  background: #aa8254;
+  color: #000;
+  opacity: 0.9;
+  box-shadow: 0 0 20px #aa8254;
+}

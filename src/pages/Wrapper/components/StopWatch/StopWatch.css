@@ -1,0 +1,53 @@
+.time {
+    color: #91DDEA;
+    text-shadow: 0 0 10px #3ba3b8;
+    font-size: 45px;
+    font-weight: 700;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.action-btn {
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 115px;
+}
+
+.action-btn button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.9;
+    color: #fff;
+    background: #3ba3b8;
+    transition: 0.4s;
+}
+
+
+.action-btn button:hover {
+    box-shadow: 0 0 20px #3ba3b8;
+}
+
+#stop {
+    background: #C6403D;
+    transition: 0.4s;
+}
+
+#stop:hover {
+    box-shadow: 0 0 20px #C6403D;
+}
+
+#start {
+    background: #87C162;
+    transition: 0.4s;
+}
+
+#start:hover {
+    box-shadow: 0 0 20px #87C162;
+}

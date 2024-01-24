@@ -1,12 +1,19 @@
 import React from 'react'
 import './App.css'
-import CounterApp from './CounterApp';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Wrapper from './pages/Wrapper';
+
+
+
 function App() {
 
   return (
-    <div className='container'>
-      <CounterApp />
-    </div>
+      <div className='App'>
+        <Wrapper>
+          
+        </Wrapper>
+     </div>
   );
 }
 

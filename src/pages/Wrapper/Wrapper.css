@@ -1,0 +1,39 @@
+.container {
+  width: 330px;
+  height: 632px;
+  background-color: #000;
+  padding: 6px;
+  border-radius: 46px;
+  position: relative;
+}
+
+.screen-app {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 40px;
+  background: url(../../images/4bbb612155395385afa0b9a50f2fb620.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.dynamic-island {
+  width: 90px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.home-btn {
+  width: 120px;
+  height: 4px;
+  background: #e9e8ec;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
